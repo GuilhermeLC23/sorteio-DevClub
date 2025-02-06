@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsivo.css">
+    <title>Sorteio DevClub GLC</title>
+</head>
+
+<body>
+    <div class="container">
+        <a href="https://www.instagram.com/rodolfomorii/" target="_blank" class="logo">
+            <img src="./assets/img.png" class="logo-img" alt="logo">
+        </a>
+
+
+        <a href="https://www.instagram.com/glc_dev_developer/" target="_blank" class="logo">
+            <img src="./assets/GLC.png" class="logo-glc" alt="logo-glc">
+        </a>
+
+        <h2>Sortear um Número</h2>
+
+        <div>
+            <input placeholder="entre" class="input-min" type="number">
+            <input placeholder="e" class="input-max" type="number">
+        </div>
+
+        <button onclick="generateNumber()">Sortear</button>
+    
+        <div id="result">
+            <span></span>
+        </div>
+    
+    </div>
+</body>
+<script src="./script.js"></script>
+
+</html>

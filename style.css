@@ -1,0 +1,118 @@
+*{
+   margin: 0;
+   padding: 0;
+   outline: none;
+   box-sizing: border-box;
+   font-family: "Roboto", sans-serif;
+   font-weight: 400;
+   font-style: normal
+}
+
+body{
+    background: rgb(147,155,24);
+background: linear-gradient(349deg, rgba(147,155,24,1) 46%, rgba(123,63,140,1) 54%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: aqua;
+}
+
+h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 18px;
+    margin-bottom: 26px;
+}
+
+input {
+    background: rgba( 255, 255, 255, 0.25);
+    border: 1px solid rgba( 255, 255, 255, 0.2);
+    border-radius: 100px;
+    height: 74px;
+    width: 342px;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffffff;
+    opacity: 0.7;
+    padding-bottom: 9px;
+
+}
+
+.input-min {
+margin-right: 10px;
+}
+
+button{
+    background: #AEC346;
+    box-shadow: 0px 18px 40px rgba(174, 195, 70, 0.35);
+    border-radius: 100px;
+    width: 342px;
+    height: 72px;
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 36px;
+    margin-top: 50px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+    width: 346px;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+.container {
+    background-color: #327391;
+    padding: 30px 40px;
+    min-height: 270px;
+    color: aliceblue;
+    box-shadow: rgba(0, 0, 0, 0.389);
+    border-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 49em;
+}
+
+
+.logo-img{
+    width: 300px;
+}
+
+.logo-img:hover{
+    width: 302px;
+}
+
+.logo-glc {
+    width: 107px;
+    background: rgb(162, 0, 194);
+    background: linear-gradient(69deg, rgba(162, 0, 194, 1) 18%, rgba(228, 60, 78, 1) 32%, rgba(247, 189, 80, 1) 69%);
+    height: 96px;
+    border-radius: 100px;
+    margin-top: 27px;
+}
+
+.logo-glc:hover{
+    width: 112px;
+
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 60px;
+    color: #ff9900;
+    font-weight: 100;
+  
+    
+}
